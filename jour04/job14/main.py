@@ -4,7 +4,7 @@ def my_long_word(n, phrase):
     compteur = 0
 
     for lettre in phrase:
-        if ('a' <= lettre <= 'z' or 'A' <= lettre <= 'Z' or '0' <= lettre <= '9'):
+        if ('a' <= lettre <= 'z' or 'A' <= lettre <= 'Z' or '0' <= lettre <= '9' <= '9' or lettre.isalpha()):
             mot += lettre
             compteur += 1
         elif mot:
